@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    /* Warna latar belakang tema gelap */
+    color: #ffffff;
+    /* Warna teks */
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #2e2e2e;
+    /* Warna latar belakang kartu */
+    border-radius: 8px;
+    min-height: 338px;
+    min-width: 320px;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 44px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffffff;
+    /* Warna judul */
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #ffffff;
+    /* Warna label */
+}
+
+/* Selector yang lebih spesifik untuk input Anda */
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    color: #ffffff;
+    outline: none !important;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+/* Ganti warna garis bawah saat input dalam keadaan aktif (focus) */
+.custom-input:focus {
+    border-bottom: 1px solid #4caf50;
+    outline: none !important;
+    /* Nonaktifkan outline saat input dalam keadaan aktif */
+
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    /* Garis di bawah teks */
+
+    background-color: transparent;
+    /* Warna latar belakang input */
+    color: #ffffff;
+    /* Warna teks input */
+    outline: none !important;
+}
+
+input:focus {
+    border-bottom: 1px solid #3d64c6;
+    /* Ganti warna garis bawah saat input dalam keadaan aktif (focus) */
+}
+
+
+button {
+    background-color: #4caf50;
+    /* Warna tombol */
+    color: #ffffff;
+    /* Warna teks tombol */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Warna tombol saat dihover */
+}
